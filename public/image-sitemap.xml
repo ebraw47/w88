@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://w88.net.pk/</loc>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-logo.webp</image:loc>
+      <image:title>W88 Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-hero-logo.webp</image:loc>
+      <image:title>W88 Hero Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-header-logo.webp</image:loc>
+      <image:title>W88 Header Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-signup.webp</image:loc>
+      <image:title>W88 Signup Welcome Bonus</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-register.webp</image:loc>
+      <image:title>W88 Register Form</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-currency.webp</image:loc>
+      <image:title>W88 PKR Currency Selection</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-google-signin.webp</image:loc>
+      <image:title>W88 Google Sign In</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-deposit.webp</image:loc>
+      <image:title>W88 Bank Transfer Deposit</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-banking.webp</image:loc>
+      <image:title>W88 JazzCash EasyPaisa Banking Details</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-menu.webp</image:loc>
+      <image:title>W88 Lobby Menu</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/feature/og-image.webp</image:loc>
+      <image:title>W88 Open Graph</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://w88.net.pk/join-w88</loc>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-signup.webp</image:loc>
+      <image:title>Join W88 Pakistan</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://w88.net.pk/deposit-money-in-w88</loc>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-deposit.webp</image:loc>
+      <image:title>W88 Deposit Guide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://w88.net.pk/w88-banking.webp</image:loc>
+      <image:title>W88 Banking Details</image:title>
+    </image:image>
+  </url>
+</urlset>

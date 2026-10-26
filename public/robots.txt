@@ -1,0 +1,28 @@
+# robots.txt for w88.net.pk
+User-agent: *
+Allow: /
+Allow: /join-w88
+Allow: /deposit-money-in-w88
+Allow: /withdraw-money-from-w88
+Allow: /w88-for-pc
+Allow: /about-us
+Allow: /contact-us
+Allow: /blog
+Allow: /blog/w88-app-review-2026
+Allow: /blog/how-to-join-w88-pakistan
+Allow: /blog/create-w88-account-and-login
+Allow: /blog/w88-deposit-guide-pakistan
+Allow: /blog/w88-withdraw-money-guide
+Allow: /blog/is-w88-safe-legal-pakistan
+Allow: /blog/how-to-use-w88-pakistan-guide
+Allow: /blog/w88-grab-a-member-referral
+Allow: /privacy
+Allow: /disclaimer
+
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://w88.net.pk/sitemap-index.xml
+Sitemap: https://w88.net.pk/sitemap.xml
+Sitemap: https://w88.net.pk/image-sitemap.xml
+Sitemap: https://w88.net.pk/api/sitemap
