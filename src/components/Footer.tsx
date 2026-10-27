@@ -46,6 +46,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/w88-game-layout-guide" className="text-gray-300 hover:text-accent transition-colors">
+                  Game Layout Guide
+                </Link>
+              </li>
+              <li>
                 <Link href="/w88-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   PC Version
                 </Link>

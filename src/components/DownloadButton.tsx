@@ -5,6 +5,7 @@ type DownloadButtonProps = {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
   blink?: boolean;
+  variant?: 'solid' | 'outline';
 };
 
 const sizeClasses = {
@@ -24,15 +25,18 @@ export default function DownloadButton({
   className = '',
   size = 'md',
   blink = false,
+  variant = 'solid',
 }: DownloadButtonProps) {
+  const variantClass = variant === 'outline' ? 'download-btn--outline' : '';
+
   return (
     <a
       href={DOWNLOAD_APP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Join W88 Pakistan — open official mobile lobby"
+      aria-label={label}
       title={label}
-      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
+      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide ${sizeClasses[size]} ${variantClass} ${blink ? 'download-btn--blink' : ''} ${className}`}
     >
       <svg
         className={`download-icon flex-shrink-0 ${svgSizeClasses[size]}`}

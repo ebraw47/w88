@@ -267,6 +267,23 @@ section.overflow-visible {
   filter: brightness(0.98);
 }
 
+.download-btn--outline {
+  color: #fbdf03 !important;
+  background: transparent !important;
+  border: 2px solid #fbdf03;
+  box-shadow: none;
+}
+
+.download-btn--outline:hover {
+  color: #1f1f1f !important;
+  background: linear-gradient(180deg, #ffe566 0%, #fbdf03 45%, #e6c200 100%) !important;
+  filter: none;
+}
+
+.download-btn--outline::before {
+  display: none;
+}
+
 .download-btn:hover .download-icon {
   animation: download-icon-nudge 0.55s ease;
 }

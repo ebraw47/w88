@@ -35,6 +35,9 @@ export default function Header() {
           <Link href="/withdraw-money-from-w88" className="text-white hover:text-accent font-medium transition-colors">
             Withdraw
           </Link>
+          <Link href="/w88-game-layout-guide" className="text-white hover:text-accent font-medium transition-colors">
+            Games
+          </Link>
           <Link href="/w88-for-pc" className="text-white hover:text-accent font-medium transition-colors">
             PC Version
           </Link>

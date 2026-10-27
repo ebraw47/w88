@@ -20,7 +20,7 @@ npm start
 ## Brand
 
 - Domain: `w88.net.pk`
-- Join / referral (only external link): `https://m.w88pkr.com/pwa-w88/web/#/?referId=RBD6PE2T`
+- Join / referral (only external link): `https://maffiliate.w88pkr.com/Track/161100`
 - Accent: gold on charcoal `#1f1f1f`
 - Assets: `/public/w88-logo.webp`, `/public/w88-hero-logo.webp`, `/public/w88-header-logo.webp`
 
@@ -28,7 +28,7 @@ npm start
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://w88.net.pk
-NEXT_PUBLIC_DOWNLOAD_URL=https://m.w88pkr.com/pwa-w88/web/#/?referId=RBD6PE2T
+NEXT_PUBLIC_DOWNLOAD_URL=https://maffiliate.w88pkr.com/Track/161100
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
 

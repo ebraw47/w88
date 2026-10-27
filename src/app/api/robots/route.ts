@@ -13,6 +13,7 @@ Disallow: /admin/
 Allow: /join-w88
 Allow: /deposit-money-in-w88
 Allow: /withdraw-money-from-w88
+Allow: /w88-game-layout-guide
 Allow: /w88-for-pc
 Allow: /about-us
 Allow: /blog

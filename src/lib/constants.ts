@@ -12,7 +12,7 @@ export const BANKING_EMAIL = 'support@w88.net.pk';
 /** Only allowed external URL — referral join link */
 export const DOWNLOAD_APP_URL =
   process.env.NEXT_PUBLIC_DOWNLOAD_URL ||
-  'https://m.w88pkr.com/pwa-w88/web/#/?referId=RBD6PE2T';
+  'https://maffiliate.w88pkr.com/Track/161100';
 
 /** Official Facebook page */
 export const FACEBOOK_URL =

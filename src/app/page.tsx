@@ -258,9 +258,17 @@ export default function HomePage() {
         <div className="container mx-auto relative z-[1]">
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <div className="flex-1 text-center lg:text-left">
-              <h1 className="mb-4 text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
-                W88 Pakistan
-              </h1>
+              <div className="mb-4 flex flex-wrap items-center justify-center lg:justify-start gap-3">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
+                  W88 Pakistan
+                </h1>
+                <span
+                  className="inline-flex items-center justify-center rounded-md border border-accent/50 bg-accent/15 px-2.5 py-1 text-sm font-bold tracking-wide text-accent"
+                  aria-label="18 plus only"
+                >
+                  18+
+                </span>
+              </div>
               <p className="text-xl md:text-2xl font-semibold mb-4 text-cyan">
                 Instant PKR · JazzCash &amp; EasyPaisa Ready
               </p>
@@ -274,6 +282,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center lg:items-start justify-center lg:justify-start mb-8">
                 <DownloadButton size="lg" label="JOIN W88 NOW" />
+                <DownloadButton size="lg" label="PLAY NOW" variant="outline" />
               </div>
               <div className="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
                 {[
@@ -343,6 +352,56 @@ export default function HomePage() {
           <ScreenshotCarousel screenshots={carouselItems} wide />
           <div className="text-center mt-8">
             <DownloadButton size="md" label="JOIN W88 NOW" />
+          </div>
+        </div>
+      </section>
+
+      {/* Game layout guide teaser */}
+      <section className="py-12 md:py-16 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <p className="text-accent font-semibold tracking-wide uppercase text-center text-sm mb-3">
+            Inside the lobby
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-3">
+            W88 Game Layout Guide
+          </h2>
+          <p className="text-gray-300 text-center max-w-2xl mx-auto mb-8">
+            Walk the real lobby: Live Casino clubs, Slots studios, Fishing, Games, P2P, E-Sports,
+            Sports, Lottery, New Member and Special promos — with screenshots from inside W88.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4 mb-8">
+            {[
+              { src: '/game-guide/w88-guide-01.webp', label: 'Live Casino', w: 1024, h: 191 },
+              { src: '/game-guide/w88-guide-13.webp', label: 'Slots', w: 1024, h: 368 },
+              { src: '/game-guide/w88-guide-06.webp', label: 'Fishing', w: 1024, h: 627 },
+              { src: '/game-guide/w88-guide-05.webp', label: 'P2P', w: 1024, h: 369 },
+            ].map((g) => (
+              <Link
+                key={g.src}
+                href="/w88-game-layout-guide"
+                className="group rounded-xl overflow-hidden border border-white/10 bg-secondary/40 hover:border-accent/40 transition-colors"
+              >
+                <Image
+                  src={g.src}
+                  alt={g.label}
+                  width={g.w}
+                  height={g.h}
+                  className="w-full h-auto object-contain"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                />
+                <p className="px-4 py-3 text-sm font-semibold text-accent group-hover:underline">
+                  {g.label} →
+                </p>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link
+              href="/w88-game-layout-guide"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-accent text-accent font-bold hover:bg-accent hover:text-primary transition-colors"
+            >
+              Open full game layout guide
+            </Link>
           </div>
         </div>
       </section>

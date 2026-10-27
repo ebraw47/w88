@@ -96,6 +96,24 @@ export async function GET() {
     },
     { url: '/withdraw-money-from-w88', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
     {
+      url: '/w88-game-layout-guide',
+      lastMod: now,
+      changeFreq: 'weekly',
+      priority: 0.9,
+      images: [
+        {
+          loc: '/game-guide/w88-guide-01.webp',
+          title: 'W88 Live Casino Layout',
+          caption: 'Live Casino clubs inside W88 Pakistan lobby',
+        },
+        {
+          loc: '/game-guide/w88-guide-13.webp',
+          title: 'W88 Slots Layout',
+          caption: 'Slots providers inside W88 Pakistan lobby',
+        },
+      ],
+    },
+    {
       url: '/w88-for-pc',
       lastMod: now,
       changeFreq: 'weekly',
